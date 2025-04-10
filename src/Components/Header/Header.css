@@ -1,0 +1,26 @@
+.header{
+    background:#2b4da5;
+    color: aliceblue;
+    display: flex;
+    justify-content:flex-start;
+    gap:10px;
+    padding: 10px 12px;
+    
+}
+.header h2 {
+    display: flex;
+    align-items: center;
+    font-size:15px;
+    gap: 5px; 
+    margin-left: 30px;
+  }
+  
+  .call {
+    font-size:18px; 
+    color: #edeaea; 
+  }
+  
+  .mail {
+    font-size:18px; 
+    color: #edeaea; 
+  }
