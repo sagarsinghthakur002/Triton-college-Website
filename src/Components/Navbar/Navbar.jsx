@@ -7,8 +7,8 @@ function Navbar() {
   return (
     <nav className='container'>
 
-        <img  src={logo}
-        alt="logo" className='logo' />
+        <a href='/' ><img  src={logo}
+        alt="logo" className='logo' /> </a>
 
         <ul>
             <li><a href="#home">Home</a></li>
@@ -16,7 +16,6 @@ function Navbar() {
             <li><a href="#services">About</a></li>
             <li><a href="#contact">Gallery</a></li>
             <button className='btn' >contact</button>
-           
         </ul>
         
     </nav> 

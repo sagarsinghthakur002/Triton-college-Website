@@ -1,11 +1,13 @@
 import React from 'react'
 import './Title.css'
 import { FaGraduationCap } from "react-icons/fa6";
-function Title() {
+
+
+function Title({subTitle, title, icon}) {
   return (
     <div className='title'>
-        <p>Our Program</p>
-        <h2>What We Offer  <FaGraduationCap className='title-icon' /></h2>
+        <p>{subTitle} </p>
+        <h2> {title} {icon} </h2>
         
     </div>
   )

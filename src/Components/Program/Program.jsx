@@ -16,19 +16,19 @@ function Program() {
         <div className='caption'>
         <GiMaterialsScience className='img' />
         <p>Science</p>
-        
         <p>Know more <HiArrowNarrowRight className='arrow' /></p>
         </div>
       </div>
+
       <div className='program'>
         <img src={program_2} alt='program' />
         <div className='caption'>
         <FaGraduationCap className='img' />
         <p>Management</p>
-        
         <p>Know more <HiArrowNarrowRight className='arrow' /></p>
         </div>
       </div>
+
       <div className='program'>
         <img src={program_3} alt='program' />
         <div className='caption'>

@@ -7,23 +7,22 @@
     gap: 20px;
 }
 
+
 .program img{
     border-radius: 10px;
-    display: block;
+    /* display: block; */
     height: 350px;
     width:100%;
     object-fit: cover;
-    
 }
+
 .program {
     width: 80%;
     height: 80%;
     /* margin-right: 10px; */
     position: relative;
-    
-    
-    
 }
+
 
 .caption {
     border-radius: 10px;
@@ -42,9 +41,8 @@
     opacity:0;
     padding-top: 70%;
     transition: 0.4s;
-    
-
 }
+
 
 .caption:hover {
     opacity: 1;
@@ -52,10 +50,12 @@
     
 }
 
+
 .img{
     font-size:60px;
     margin-bottom: 10px;
 }
+
 
 p {
     font-weight: 700;

@@ -4,6 +4,7 @@ import Hero from './Components/Hero/Hero'
 import Header from './Components/Header/Header'
 import Program from './Components/Program/Program'
 import Title from './Components/Title/Title'
+import { FaGraduationCap } from "react-icons/fa6";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <div className='container'>
-        <Title />
+        <Title subTitle="Our Program " title="What We Offer" icon={<FaGraduationCap className="title-icon" />} />  
       <Program />
       </div>
     </div>
