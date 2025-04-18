@@ -20,6 +20,7 @@ function Program() {
         </div>
       </div>
 
+
       <div className='program'>
         <img src={program_2} alt='program' />
         <div className='caption'>
