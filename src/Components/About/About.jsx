@@ -1,14 +1,14 @@
 import React from 'react'
 import './About.css'
 import about from '../../assets/images/about1.png'
-import video from '../../assets/images/video.mp4'
+// import video from '../../assets/images/video.mp4'
 
 function About() {
   return (
     <div className='about'>
         <div className="about-left">
             <img src={about} alt='about' />
-            <img src={video} alt='about' />
+            {/* <img src={video} alt='about' /> */}
         </div>
 
         <div className="about-right">
