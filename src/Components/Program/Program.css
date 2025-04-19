@@ -40,7 +40,7 @@
     cursor: pointer;
     opacity:0;
     padding-top: 70%;
-    transition: 0.4s;
+    transition: 0.4s ease-in-out;
 }
 
 
@@ -62,5 +62,6 @@ p {
     font-size: 20px;
     align-items: center;
     justify-content: center;
+
 }
 
