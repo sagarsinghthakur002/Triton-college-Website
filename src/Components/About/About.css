@@ -14,7 +14,7 @@
 }
 
 .about-right {
-    flex-basis: 56%;
+    flex-basis: 57%;
 
 }
 
@@ -23,6 +23,7 @@
     height: 350px;
     border-radius: 10px;
     object-fit: cover;
+    object-position: right;
     
 }
 

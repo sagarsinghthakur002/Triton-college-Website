@@ -6,6 +6,8 @@ import Program from './Components/Program/Program'
 import Title from './Components/Title/Title'
 import { FaGraduationCap } from "react-icons/fa6";
 import About from './Components/About/About'
+import { GrUserManager } from "react-icons/gr";
+
 
 function App() {
   return (
@@ -14,9 +16,13 @@ function App() {
       <Navbar />
       <Hero />
       <div className='container'>
-        <Title subTitle="Our Program " title="What We Offer" icon={<FaGraduationCap className="title-icon" />} />  
-      <Program />
+      <Title  title="College Information" icon={<FaGraduationCap className="title-icon" />} />  
       <About />
+        <Title subTitle="Our Program " title="What We Offer" icon={<GrUserManager
+ className="title-icon" />} />  
+      <Program />
+      
+      <Title subTitle="Gallery " title="Collage Photo"  />  
       </div>
     </div>
   )

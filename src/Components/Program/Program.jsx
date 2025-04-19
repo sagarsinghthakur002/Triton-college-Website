@@ -7,6 +7,7 @@ import { FaGraduationCap } from "react-icons/fa6";
 import { GoLaw } from "react-icons/go";
 import { GiMaterialsScience } from "react-icons/gi";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { GrUserManager } from "react-icons/gr";
 
 function Program() {
   return (
