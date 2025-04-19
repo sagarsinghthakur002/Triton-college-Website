@@ -1,23 +1,22 @@
 import React from 'react'
 import './About.css'
-import about from '../../assets/images/about.png'
-import video from '../../assets/images/about.mp4'
+
+import about from "../../assets/images/about.jpg"
+import play from "../../assets/images/play.png"
 
 function About() {
   return (
     <div className='about'>
       <div className="about-left">
-        <img src={about} alt="about" />
-        <video src={video} controls autoPlay muted loop /> 
+        <img src={about} alt="about"  className='about-img'/>
+        <img src={play} alt="about" className='play-icon'/>
+        {/* <video src="/about.mp4" controls autoPlay muted loop className='play-icon' />  */}
         
       </div>
 
       <div className="about-right">
 
         <h3>About Triton International College </h3>
-
-
-
         <h2>We Transform You</h2>
         <p>Embark on a transformative educational journey with our college comprehensive education programs. Our cutting-edge curriculum is designed to empower students with the knowledge, skills, and experiences needed to excel in the dynamic field of education.</p>
         <p>With a focus on innovation, hands-on learning, and personalized mentorship, our programs prepare aspiring educators to make a meaningful impact in classrooms, schools, and communities.</p>
