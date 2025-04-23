@@ -11,6 +11,7 @@ import { GrUserManager } from "react-icons/gr";
 import AOS from "aos";  
 import "aos/dist/aos.css";
 import Testimonials from './Components/Testimonials/Testimonals'
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
@@ -38,6 +39,8 @@ function App() {
         <Title subTitle="Testimoinal " title="Students say about Triton ?" />
         <Testimonials />
       </div>
+        <Title />
+        <Footer />
     </div>
   )
 }

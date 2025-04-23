@@ -1,0 +1,19 @@
+.footer {
+  height: 45vh;
+  width: 100%;
+  /* backdrop-filter: blur(10px); */
+  /* background: #0f0fdb; */
+  background: linear-gradient(90deg, rgba(12, 12, 226, 0.86) 100%, rgba(4, 48, 205, 0.975) 100%);
+
+}
+
+.footer-container {
+  /* background: #3131d6; */
+  /* background: linear-gradient(90deg, rgba(49, 49, 214, 0.92) 100%, rgba(0, 212, 255, 1) 100%); */
+  background: url('../../../public/footer.png') no-repeat center center;
+  /* backdrop-filter: blur(10px); */
+  /* color: black; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}

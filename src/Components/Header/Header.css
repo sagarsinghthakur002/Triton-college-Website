@@ -1,5 +1,5 @@
 .header{
-    background:#1f46a9;
+    background:#2f2eff;
     color: aliceblue;
     display: flex;
     justify-content:flex-start;
@@ -12,7 +12,7 @@
     
 }
 .header h2 {
-    display: flex;
+    display: flex;                                                                                                        
     align-items: center;
     font-size:15px;
     gap: 5px; 
