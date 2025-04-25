@@ -87,9 +87,7 @@ const Footer = () => {
           </div>
 
 
-          <h1 className="text-white mt-6">
-            Copyright &copy; Sagar Thakur. All Rights Reserved.
-          </h1>
+          
         </div>
         </div>
 
@@ -122,8 +120,10 @@ const Footer = () => {
 
 
         </div>
-          <div className="flex items-center gap-3">
-            <h2 className="text-slate-200">Triton International College</h2>
+          <div className="flex items-center   ">
+          <h1 className="text-white mb-6  font-semibold">
+            Copyright &copy; Sagar Thakur. All Rights Reserved.
+          </h1>
             </div>
       </footer>
       {/* Scroll to top button */}
