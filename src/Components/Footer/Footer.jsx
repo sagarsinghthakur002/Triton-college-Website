@@ -65,24 +65,22 @@ const Footer = () => {
         >
           <h1 className="text-white text-2xl font-semibold">About Us</h1>
           <h2 className="text-white text-justify">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
-            quisquam sit iste minus, laboriosam excepturi iusto reprehenderit
-            odio nam ipsam.
+          We are dedicated unconditionally to provide quality education to the 21st century generation while keeping pace with our traditional culture and values.
           </h2>
 
 
           <div className="flex justify-start items-center gap-4 mt-2">
-            <div className="p-3 rounded-xl   hover:text-blue-800 cursor-pointer transform hover:scale-110 transition duration-300">
-              <FaFacebookF className="size-7" />
+            <div className="p-3 rounded-xl text-gray-300   hover:text-blue-600 cursor-pointer transform hover:scale-110 transition duration-300 ">
+              <FaFacebookF className="size-8" />
             </div>
-            <div className="p-3 rounded-xl hover:text-pink-600 cursor-pointer transform hover:scale-110 transition duration-300">
-              <FaInstagram className="size-7" />
+            <div className="p-3 rounded-xl text-gray-300  hover:text-pink-600 cursor-pointer transform hover:scale-110 transition duration-300">
+              <FaInstagram className="size-8" />
             </div>
-            <div className="p-3 rounded-xl  hover:text-blue-500 cursor-pointer transform hover:scale-110 transition duration-300">
-              <FaTwitter className="size-7" />
+            <div className="p-3 rounded-xl text-gray-300  hover:text-blue-500 cursor-pointer transform hover:scale-110 transition duration-300">
+              <FaTwitter className="size-8" />
             </div>
-            <div className="p-3 rounded-xl  hover:text-red-600 cursor-pointer transform hover:scale-110 transition duration-300">
-              <FaYoutube className="size-7" />
+            <div className="p-3 rounded-xl text-gray-300  hover:text-red-600 cursor-pointer transform hover:scale-110 transition duration-300">
+              <FaYoutube className="size-8" />
             </div>
           </div>
 
@@ -102,20 +100,20 @@ const Footer = () => {
           <div className="flex items-center gap-3">
             <FaBuilding className="text-white size-5" />
             <h2 className="text-slate-200">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit
+            Seti Opi Marga, Koteshwor-32, Kathmandu, Nepal
             </h2>
           </div>
           <div className="flex items-center gap-3">
-            <FaMobile className="text-white size-5" />
+            <FaMobile className=" size-5 text-gray-300 " />
             <h2 className="text-slate-200">+977 9823405745</h2>
           </div>
           <div className="flex items-center gap-3">
-            <FaFax className="text-white size-5" />
-            <h2 className="text-slate-200">+977 9822763996</h2>
+            <FaFax className=" size-5 text-gray-300 " />
+            <h2 className="text-slate-200">+977-01-5104450</h2>
           </div>
           <div className="flex items-center gap-3">
-            <IoMdMail className="text-white size-5" />
-            <h2 className="text-slate-200">realestate002@gmail.com</h2>
+            <IoMdMail className=" size-5 text-gray-300 " />
+            <h2 className="text-slate-200">info@triton.edu.np</h2>
           </div>
 
 
