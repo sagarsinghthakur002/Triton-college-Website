@@ -12,6 +12,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Testimonials from './Components/Testimonials/Testimonals'
 import Footer from './Components/Footer/Footer'
+import Contact from './Components/contact/Contact'
 
 function App() {
 
@@ -38,8 +39,12 @@ function App() {
         <Program />
         <Title subTitle="Testimoinal " title="Students say about Triton ?" />
         <Testimonials />
+        <Title/>
+        <Contact />
       </div>
+
         <Title />
+
         <Footer />
     </div>
   )
