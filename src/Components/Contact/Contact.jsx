@@ -1,6 +1,16 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { FcVoicePresentation } from "react-icons/fc";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTwitter,
+  FaYoutube,
+  
+} from "react-icons/fa";
+import { FcAbout } from "react-icons/fc";
+
 
 const Contact = () => {
   useEffect(() => {
@@ -14,26 +24,40 @@ const Contact = () => {
 
   return (
     <div className="bg-transparent pb-20">
-      <section
-        id="contact"
-        className="bg-red-100 lg:w-[95%] w-full h-fit m-auto rounded-xl grid lg:grid-cols-2 grid-cols-1 justify-center items-center lg:px-36 px-6 py-20 gap-10"
+      <div
+        
+        className=" lg:w-[95%] w-full h-fit m-auto rounded-xl grid lg:grid-cols-2 grid-cols-1 justify-center items-center lg:px-36 px-6 py-20 gap-10"
       >
 
         {/* left Side Content */}
-        <div className="flex flex-col justify-center items-start gap-8 lg:p-20 p-6">
-          <h1 data-aos="zoom-in" data-aos-delay="200" className="text-red-500 font-semibold">
-            REACH US
+        <div className="flex flex-col justify-center items-start gap-5 lg:p-20 p-6">
+          <h1 data-aos="zoom-in" data-aos-delay="200" className="text-[#212EA0] font-semibold flex items-center">
+            Send us a message <FcVoicePresentation className='text-4xl gap-2' />
+
           </h1>
           <h1
             data-aos="zoom-in"
             data-aos-delay="400"
-            className="text-black text-[40px] font-semibold leading-10"
+            className="text-black text-[15px] font-mono leading-5"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, a?
+            Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.
           </h1>
-          <button className="bg-red-600 text-md px-8 py-3 text-white font-semibold rounded-xl hover:bg-black cursor-pointer">
-            Contact
-          </button>
+          <h1 className='text-[20px] font-semibold flex items-center justify-center'>Follow us.. <FcAbout className='text-2xl' />
+          </h1>
+          <div className="flex justify-start items-center gap-4 mt-2">
+            <div className="p-3 rounded-xl text-[#1d67de]   hover:text-blue-600 cursor-pointer transform hover:scale-110 transition duration-300 ">
+              <FaFacebookF className="size-8" />
+            </div>
+            <div className="p-3 rounded-xl text-[#1d67de]  hover:text-pink-600 cursor-pointer transform hover:scale-110 transition duration-300">
+              <FaInstagram className="size-8" />
+            </div>
+            <div className="p-3 rounded-xl text-[#1d67de]  hover:text-blue-500 cursor-pointer transform hover:scale-110 transition duration-300">
+              <FaTwitter className="size-8" />
+            </div>
+            <div className="p-3 rounded-xl text-[#1d67de]  hover:text-red-600 cursor-pointer transform hover:scale-110 transition duration-300">
+              <FaYoutube className="size-8" />
+            </div>
+          </div>
         </div>
 
         {/* right Side Form */}
@@ -61,18 +85,18 @@ const Contact = () => {
             placeholder="Enter your number"
             className="w-full px-6 py-3 border-2 border-gray-500 rounded-[5px]"
           />
-          
+
           <textarea
             cols="30"
             rows="5"
             placeholder="Enter your message here..."
             className="w-full px-6 py-3 border-2 border-gray-500 rounded-[5px]"
           ></textarea>
-          <button className="bg-red-600 w-full text-md px-8 py-3 text-white font-semibold rounded-xl hover:bg-black cursor-pointer">
+          <button className="bg-blue-600 w-full text-md px-8 py-3 text-white font-semibold rounded-xl cursor-pointer hover:bg-[#25A4E5]">
             SEND EMAIL
           </button>
         </div>
-      </section>
+      </div>
     </div>
   );
 };

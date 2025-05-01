@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { motion } from "framer-motion";
-
+import "./Testimonials.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -89,7 +89,7 @@ function Testimonials() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: index * 0.1 }}
                     >
-                        <div className="flex  flex-row   rounded-xl bg-blue-600 relative h-[300px] w-[50%] md:w-[97%]   z-10  ">
+                        <div className="flex  flex-row   rounded-xl bg-blue-600 relative h-[300px] w-[50%] md:w-[99%]   z-10  ">
                             <div className=" flex flex-col items-center justify-center ">
                                 
                             <img

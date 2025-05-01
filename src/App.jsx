@@ -39,7 +39,7 @@ function App() {
         <Program />
         <Title subTitle="Testimoinal " title="Students say about Triton ?" />
         <Testimonials />
-        <Title/>
+        <Title subTitle="contact us" title="Get in Touch"/>
         <Contact />
       </div>
 

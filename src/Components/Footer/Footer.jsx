@@ -70,7 +70,7 @@ const Footer = () => {
 
 
           <div className="flex justify-start items-center gap-4 mt-2">
-            <div className="p-3 rounded-xl text-gray-300   hover:text-blue-600d cursor-pointer transform hover:scale-110 transition duration-300 ">
+            <div className="p-3 rounded-xl text-gray-300   hover:text-blue-600 cursor-pointer transform hover:scale-110 transition duration-300 ">
               <FaFacebookF className="size-8" />
             </div>
             <div className="p-3 rounded-xl text-gray-300  hover:text-pink-600 cursor-pointer transform hover:scale-110 transition duration-300">
