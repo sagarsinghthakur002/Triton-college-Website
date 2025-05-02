@@ -9,7 +9,7 @@
   background: url('../../footer.png') no-repeat center center;
 }
 
- Slick Custom Styles 
+ /* Slick Custom Styles slider   */
 
 .slick-dots li button:before {
   color: #1D67DE !important;
@@ -22,14 +22,14 @@
   opacity: 1;
 }
 
-.slick-prev:before,
+/* .slick-prev:before,
 .slick-next:before {
   color: #1D67DE !important;
   font-size: 24px;
   opacity: 1;
-}
+} */
 
-.slick-prev:hover:before,
+/* .slick-prev:hover:before,
 .slick-next:hover:before {
   color: #25A4E5 !important;
-}
+} */
