@@ -23,14 +23,14 @@ const Contact = () => {
   }, []);
 
   return (
-    <div className="bg-transparent pb-20">
+    <div className="container h-[90%] bg-gray-200 pb-20">
       <div
         
         className=" lg:w-[95%] w-full h-fit m-auto rounded-xl grid lg:grid-cols-2 grid-cols-1 justify-center items-center lg:px-36 px-6 py-20 gap-10"
       >
 
         {/* left Side Content */}
-        <div className="flex flex-col justify-center items-start gap-5 lg:p-20 p-6">
+        <div className="flex flex-col justify-center items-start gap-5 lg:p-20 p-6 ml-[10px]">
           <h1 data-aos="zoom-in" data-aos-delay="200" className="text-[#212EA0] font-semibold flex items-center">
             Send us a message <FcVoicePresentation className='text-4xl gap-2' />
 

@@ -13,6 +13,7 @@ import "aos/dist/aos.css";
 import Testimonials from './Components/Testimonials/Testimonals'
 import Footer from './Components/Footer/Footer'
 import Contact from './Components/contact/Contact'
+import Facilities from './Components/Facilities/Facilities'
 
 function App() {
 
@@ -32,19 +33,26 @@ function App() {
       <Navbar />
       <Hero />
       <div className='container'>
+
         <Title title="College Information" icon={<FaGraduationCap className="title-icon" />} />
         <About />
+
         <Title subTitle="Our Program " title="What We Offer" icon={<GrUserManager
           className="title-icon" />} />
         <Program />
+
+        <Title subTitle="Facilities" title="Our Facilities" />
+        <Facilities />
+
         <Title subTitle="Testimoinal " title="Students say about Triton ?" />
         <Testimonials />
+
         <Title subTitle="contact us" title="Get in Touch"/>
-        <Contact />
+        <Contact  />
+
       </div>
 
         <Title />
-
         <Footer />
     </div>
   )
