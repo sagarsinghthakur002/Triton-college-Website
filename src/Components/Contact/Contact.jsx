@@ -26,19 +26,19 @@ const Contact = () => {
     <div className="container h-[90%] bg-gray-200 pb-20">
       <div
         
-        className=" lg:w-[95%] w-full h-fit m-auto rounded-xl grid lg:grid-cols-2 grid-cols-1 justify-center items-center lg:px-36 px-6 py-20 gap-10"
+        className="   w-full h-[30rem] m-auto rounded-xl grid lg:grid-cols-2 grid-cols-1 justify-center items-center   py-20 gap-10"
       >
 
         {/* left Side Content */}
         <div className="flex flex-col justify-center items-start gap-5 lg:p-20 p-6 ml-[10px]">
-          <h1 data-aos="zoom-in" data-aos-delay="200" className="text-[#212EA0] font-semibold flex items-center">
+          <h1 data-aos="zoom-in" data-aos-delay="200" className="text-[#212EA0] font-semibold flex items-center text-2xl">
             Send us a message <FcVoicePresentation className='text-4xl gap-2' />
 
           </h1>
           <h1
             data-aos="zoom-in"
             data-aos-delay="400"
-            className="text-black text-[15px] font-mono leading-5"
+            className="text-black text-[17px] font-mono leading-5"
           >
             Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.
           </h1>
@@ -63,7 +63,7 @@ const Contact = () => {
         {/* right Side Form */}
         <div
           data-aos="zoom-in"
-          className=" p-10 flex flex-col justify-center items-start gap-6 rounded-xl"
+          className=" p-10  flex flex-col justify-center items-start gap-6 rounded-xl"
         >
           <h1 className="text-2xl text-black font-semibold">
             Send a message today
@@ -71,26 +71,26 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Enter your full name here"
-            className="w-full px-6 py-3 border-2 border-gray-500 rounded-[5px]"
+            className="w-full px-4 py-2 border-2 border-gray-400 rounded-[5px]"
           />
 
           <input
             type="email"
             placeholder="Enter your Email"
-            className="w-full px-6 py-3 border-2 border-gray-500 rounded-[5px]"
+            className="w-full px-4 py-2 border-2 border-gray-400 rounded-[5px]"
           />
 
           <input
             type="number"
             placeholder="Enter your number"
-            className="w-full px-6 py-3 border-2 border-gray-500 rounded-[5px]"
+            className="w-full px-4 py-2 border-2 border-gray-400 rounded-[5px]"
           />
 
           <textarea
             cols="30"
             rows="5"
             placeholder="Enter your message here..."
-            className="w-full px-6 py-3 border-2 border-gray-500 rounded-[5px]"
+            className="w-full px-4 py-2 border-2 border-gray-400 rounded-[5px]"
           ></textarea>
           <button className="bg-blue-600 w-full text-md px-8 py-3 text-white font-semibold rounded-xl cursor-pointer hover:bg-[#25A4E5]">
             SEND EMAIL
