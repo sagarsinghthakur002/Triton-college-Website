@@ -53,7 +53,7 @@ function card() {
   }, [])
 
   return (
-    <div className=' container  '>
+    <div className=' container' id='services'>
       <div className='sticky text-white flex flex-col items-center gap-10 py-[22vh]  '>
         {cards.map((card, index) => (
           <div

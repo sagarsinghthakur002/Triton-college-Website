@@ -34,7 +34,7 @@ function App() {
       <Hero />
       <div className='container'>
 
-        <Title title="College Information" icon={<FaGraduationCap className="title-icon" />} />
+        <Title title="College Information" icon={<FaGraduationCap className="title-icon"  />} />
         <About />
 
         <Title subTitle="Our Program " title="What We Offer" icon={<GrUserManager
@@ -47,7 +47,7 @@ function App() {
         <Title subTitle="Testimoinal " title="Students say about Triton ?" />
         <Testimonials />
 
-        <Title subTitle="contact us" title="Get in Touch"/>
+        <Title subTitle="contact us" title="Get in Touch" id='contact'/>
         <Contact  />
 
       </div>

@@ -6,16 +6,16 @@ import play from "../../assets/images/play.png"
 
 function About() {
   return (
-    <div className='container h-[90%] bg-gray-200 pb-20'>
+    <div className='container h-[90%] bg-gray-200 pb-20' id='about'>
     <div className='about h-[70vh]  flex justify-center items-center gap-10'>
-      <div className="about-left">
+      <div className="about-left" data-aos="fade-right">
         <img src={about} alt="about"  className='about-img'/>
         <img src={play} alt="about" className='play-icon'/>
         {/* <video src="/about.mp4" controls autoPlay muted loop className='play-icon' />  */}
         
       </div>
 
-      <div className="about-right">
+      <div className="about-right " data-aos="zoom-in">
 
         <h3>About Triton International College </h3>
         <h2>We Transform You</h2>

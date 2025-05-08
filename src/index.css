@@ -45,3 +45,13 @@ a{
 .btn:hover {
   background:#25A4E5;
 }
+
+@media (max-width:1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn {
+    padding: 14px 22px;
+  }
+}

@@ -24,7 +24,7 @@ const Program = () => {
   
 
   return (
-    <div data-aos="zoom-in" data-aos-delay="200" className='programs'>
+    <div  className='programs' id='program' data-aos="zoom-in"  >
       <div className='program'>
         <img src={program_1} alt='program' />
         <div className='caption'>

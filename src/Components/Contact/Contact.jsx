@@ -23,7 +23,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <div className="container h-[90%] bg-gray-200 pb-20">
+    <div className="container h-[90%] bg-gray-200 pb-20 rounded-xl" id='contact'>
       <div
         
         className="   w-full h-[30rem] m-auto rounded-xl grid lg:grid-cols-2 grid-cols-1 justify-center items-center   py-20 gap-10"
@@ -42,9 +42,9 @@ const Contact = () => {
           >
             Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.
           </h1>
-          <h1 className='text-[20px] font-semibold flex items-center justify-center'>Follow us.. <FcAbout className='text-2xl' />
+          <h1 className='text-[20px] font-semibold flex items-center justify-center' data-aos="zoom-in">Follow us.. <FcAbout className='text-2xl' />
           </h1>
-          <div className="flex justify-start items-center gap-4 mt-2">
+          <div className="flex justify-start items-center gap-4 mt-2" data-aos="zoom-in">
             <div className="p-3 rounded-xl text-[#1d67de]   hover:text-blue-600 cursor-pointer transform hover:scale-110 transition duration-300 ">
               <FaFacebookF className="size-8" />
             </div>

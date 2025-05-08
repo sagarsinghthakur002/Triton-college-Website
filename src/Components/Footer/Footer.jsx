@@ -21,7 +21,7 @@ const Footer = () => {
   useEffect(() => {
     Aos.init({
       offset: 100,
-      duration: 1000,
+      duration: 5000,
       easing: "ease-in-out",
       once: true,
     });
@@ -30,7 +30,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <footer
-        className="w-full h-[40vh] grid md:grid-cols-2 grid-cols-1 justify-center items-center gap-10 p-10 lg:p-20 container  footer">
+        className="w-[100%] h-[40vh] grid md:grid-cols-2 grid-cols-1 justify-center items-center gap-10 p-10 lg:p-20 container  footer">
 
 
         {/* Logo Section */}
