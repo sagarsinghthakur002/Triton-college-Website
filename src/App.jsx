@@ -14,7 +14,7 @@ import Testimonials from './Components/Testimonials/Testimonals'
 import Footer from './Components/Footer/Footer'
 import Contact from './Components/Contact/Contact.jsx'
 import Facilities from './Components/Facilities/Facilities'
-import VideoPlayer from './Components/VideoPlayer/VIdeoPlayer.jsx'
+import VideoPlayer from './Components/VideoPlayer/VideoPlayer.jsx'
 
 
 
