@@ -5,8 +5,9 @@ function Hero() {
   return (
     <div className='hero container ' id='hero'>
       <div className='hero-text'>
-        <h1>We Ensure better educetion for a better worls</h1>
-        <p className='font-mono'>our cutting-edge curriculum is designed to empower studestd with the knowlegge ,  skill abnd expriences neede to excel in the dynamic field of education</p>
+        <h1>We Ensure Better Education for a Better World</h1>
+        <p className='font-mono'>Our cutting-edge curriculum is designed to empower students with the knowledge,
+  skills, and experiences needed to excel in the dynamic field of education.</p>
         <button className='btn'>Get Started <HiArrowNarrowRight className='arrow' />
         </button>
       </div>

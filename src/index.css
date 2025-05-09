@@ -24,7 +24,12 @@ a{
 .container {
   padding-left: 5%;
   padding-right: 5%;
+}
 
+.containers {
+  
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .btn {
@@ -50,6 +55,8 @@ a{
   .container {
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .btn {
     padding: 14px 22px;

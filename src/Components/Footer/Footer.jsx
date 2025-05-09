@@ -17,20 +17,21 @@ import "./Footer.css";
 import logo from "../../assets/images/logo2.png";
 
 
+
 const Footer = () => {
   useEffect(() => {
     Aos.init({
       offset: 100,
-      duration: 5000,
+      duration: 1000,
       easing: "ease-in-out",
       once: true,
     });
   }, []);
 
   return (
-    <div className="footer-container">
+    <div className="footer-containe w-90%" style={{ backgroundImage: `url(${'/footer.png'})` }}>
       <footer
-        className="w-[100%] h-[40vh] grid md:grid-cols-2 grid-cols-1 justify-center items-center gap-10 p-10 lg:p-20 container  footer">
+        className=" h-[40vh] grid md:grid-cols-2 grid-cols-1 justify-center items-center gap-10   container  footer">
 
 
         {/* Logo Section */}
@@ -118,11 +119,11 @@ const Footer = () => {
 
 
         </div >
-        <div className="flex items-center  w-full" >
-          <h1 className="text-white mb-6  font-semibold border-t border-white "  >
-            Copyright &copy; Sagar Thakur. All Rights Reserved.
-          </h1>
-        </div>
+        <div className="col-span-1 lg:col-span-2 flex justify-center mt-6">
+    <h1 className="text-white text-sm border-t border-white pt-3 text-center w-full">
+      &copy; Sagar Thakur. All Rights Reserved.
+    </h1>
+  </div>
       </footer>
       
       {/* Scroll to top button */}

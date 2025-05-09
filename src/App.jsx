@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useEffect } from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
@@ -12,8 +12,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Testimonials from './Components/Testimonials/Testimonals'
 import Footer from './Components/Footer/Footer'
-import Contact from './Components/contact/Contact'
+import Contact from './Components/Contact/Contact.jsx'
 import Facilities from './Components/Facilities/Facilities'
+import VideoPlayer from './Components/VideoPlayer/VIdeoPlayer.jsx'
+
+
+
 
 function App() {
 
@@ -27,6 +31,9 @@ function App() {
   
     AOS.refresh();
   }, []);
+
+  const [playState, setPlayState] = useState(false);
+
   return (
     <div>
       <Header />
@@ -34,8 +41,8 @@ function App() {
       <Hero />
       <div className='container'>
 
-        <Title title="College Information" icon={<FaGraduationCap className="title-icon"  />} />
-        <About />
+        <Title title="College Information" icon={<FaGraduationCap className="title-icon sm:text-2xl"  />} />
+        <About setPlayState={setPlayState} />
 
         <Title subTitle="Our Program " title="What We Offer" icon={<GrUserManager
           className="title-icon" />} />
@@ -50,10 +57,12 @@ function App() {
         <Title subTitle="contact us" title="Get in Touch" id='contact'/>
         <Contact  />
 
-      </div>
-
         <Title />
+      </div>
         <Footer />
+       
+       <VideoPlayer playState={playState} setPlayState={setPlayState} />
+
     </div>
   )
 }

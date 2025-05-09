@@ -1,13 +1,13 @@
 .footer {
   height: 45vh;
-  width: 100%;
+  
   background: linear-gradient(90deg, rgba(12, 12, 226, 0.86) 100%, rgba(4, 48, 205, 0.975) 100%);
 
 }
 
-.footer-container {
+/* .footer-containe {
   background: url('../../footer.png') no-repeat center center;
-}
+} */
 
  /* Slick Custom Styles slider   */
 

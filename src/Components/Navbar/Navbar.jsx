@@ -22,7 +22,7 @@ function Navbar() {
 
   return (
     <nav
-      className={`w-full fixed z-10 container flex items-center justify-between px-6 py-4 transition-all duration-500 ${
+      className={`container w-full fixed z-10  flex items-center justify-between px-6 transition-all duration-500 ${
         sticky ? 'bg-[#2f2eff] top-0' : 'bg-transparent top-10'
       }`}
     >
@@ -34,7 +34,7 @@ function Navbar() {
       {/* Desktop Nav */}
       <ul
         className={`md:flex items-center gap-6 font-semibold text-white transition-all duration-300
-          ${mobileMenu ? 'fixed top-0 left-0 h-full w-52 bg-[#2f2eff] pt-20 pl-6 flex flex-col z-20' : 'hidden md:flex'}
+          ${mobileMenu ? 'fixed top-0 right-0 mt-[70px] h-full w-50 bg-[#2f2eff] pt-40 pl-6 flex flex-col z-20' : 'hidden md:flex'}
         `}
       >
         {['hero', 'about', 'program', 'services'].map((section) => (
@@ -45,7 +45,7 @@ function Navbar() {
               offset={section === 'hero' ? 0 : -260}
               duration={500}
               onClick={() => setMobileMenu(false)}
-              className="hover:text-[#25A4E5] cursor-pointer "
+              className="hover:text-[#25A4E5] cursor-pointer  "
             >
               {section.charAt(0).toUpperCase() + section.slice(1)}
             </Link>
