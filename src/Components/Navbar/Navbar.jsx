@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
-import logo from '../../assets/images/logo.png';
+// import logo from '../../assets/images/logo.png';
 import menuIcon from '../../assets/images/menu.png';
 
 function Navbar() {
@@ -28,7 +28,7 @@ function Navbar() {
     >
       {/* Logo */}
       <a href="/">
-        <img src={logo} alt="logo" className="w-24 hover:scale-105 transition-transform duration-300" />
+        <img src='/logo.png' alt="logo" className="w-24 hover:scale-105 transition-transform duration-300" />
       </a>
 
       {/* Desktop Nav */}
