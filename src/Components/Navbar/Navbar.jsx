@@ -38,7 +38,7 @@ function Navbar() {
         `}
       >
         {['hero', 'about', 'program', 'services'].map((section) => (
-          <li key={section}>
+          <li key={section} className='hover:text-[#25A4E5] '>
             <Link
               to={section}
               smooth={true}
