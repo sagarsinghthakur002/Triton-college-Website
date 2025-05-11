@@ -89,29 +89,31 @@ function Testimonials() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: index * 0.1 }}
                     >
-                        <div className="flex  flex-row   rounded-xl bg-blue-600 relative h-[300px] w-[50%] md:w-[99%]   z-10  ">
-                            <div className=" flex flex-col items-center justify-center ">
-                                
-                            <img
-                                src={data.img}
-                                alt={data.name}
-                                className="rounded-full size-[7em] object-cover"
-                            />
-                           
-                            <div className="flex flex-col justify-center  w-[70%] ">
-                                <h2 className="  text-white  text-center  text-[15px] ">
-                                    {data.text}
-                                </h2>
-                                <div className="flex justify-center mb-2">
-                                    {renderStars(data.rating)}
+                        <div className="flex flex-col sm:flex-row rounded-xl bg-blue-600 relative h-auto sm:h-[300px] w-full sm:w-[50%] md:w-[99%] z-10">
+                            <div className="flex flex-col items-center justify-center w-full p-4 sm:p-0">
+                                <img
+                                    src={data.img}
+                                    alt={data.name}
+                                    className="rounded-full size-[7em] object-cover mb-4"
+                                />
+                                <div className="flex flex-col justify-center items-center place-items-center sm:items-start w-full sm:w-[70%] text-center sm:text-left">
+                                     <h1 className="text-base font-bold text-shadow-white place-items-center">
+                                        {data.name}
+                                    </h1>
+                                    {/* <h2 className="text-white text-[15px] mb-2">
+                                        {data.text}
+                                    </h2> */}
+                                    <div className="flex justify-center sm:justify-start mb-2">
+                                        {renderStars(data.rating)}
+                                    </div>
+                                    <h2 className="text-white text-[15px] mb-2">
+                                        {data.text}
+                                    </h2>
+                                    {/* <h1 className="text-base font-bold text-shadow-white">
+                                        {data.name}
+                                    </h1> */}
                                 </div>
-                                <h1 className="text-base font-bold text-shadow-white text-center">
-                                    {data.name}
-                                </h1>
                             </div>
-
-                            
-                        </div>
                         </div>
                     </motion.div>
                 ))}

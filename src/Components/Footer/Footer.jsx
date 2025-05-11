@@ -30,9 +30,7 @@ const Footer = () => {
 
   return (
     <div
-      style={{
-        background: "linear-gradient(90deg, rgba(12, 12, 226, 0.86) 100%, rgba(4, 48, 205, 0.975) 100%)"
-      }}
+      className="bg-[#2f2eff]"
 
     >
       <div

@@ -48,7 +48,7 @@ function App() {
           className="title-icon" />} />
         <Program />
 
-        <Title subTitle="Facilities" title="Our Facilities" />
+        <Title subTitle="Facilities" title="Our Services & Facilities" />
         <Facilities />
 
         <Title subTitle="Testimoinal " title="Students say about Triton ?" />
